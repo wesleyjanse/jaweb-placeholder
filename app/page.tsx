@@ -3,8 +3,8 @@ import Image from "next/image";
 const CONTACT_ITEMS = [
   {
     label: "Email",
-    value: "wesleyjanse.business@gmail.com",
-    href: "mailto:wesleyjanse.business@gmail.com",
+    value: "info@ja-web.be",
+    href: "mailto:info@ja-web.be",
     icon: (
       <svg
         width="20"
@@ -50,7 +50,10 @@ export default function Home() {
       className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 py-16"
       style={{ backgroundColor: "#ffffff", color: "#011627" }}
     >
-      <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-0">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 z-0"
+      >
         <div className="blob blob-1" />
         <div className="blob blob-2" />
         <div className="blob blob-3" />
@@ -91,13 +94,17 @@ export default function Home() {
             className="text-4xl font-bold tracking-tight"
             style={{ color: "#011627", lineHeight: 1.2 }}
           >
-            We gaan iets<br />groots lanceren
+            We gaan iets
+            <br />
+            groots lanceren
           </h1>
           <p
             className="text-base leading-relaxed"
             style={{ color: "#011627", opacity: 0.6 }}
           >
-            Jaweb is een software development agency in opbouw. We bouwen digitale producten en oplossingen op maat. Neem gerust alvast contact op.
+            Jaweb is een software development agency in opbouw. We bouwen
+            digitale producten en oplossingen op maat. Neem gerust alvast
+            contact op.
           </p>
         </div>
 
@@ -146,6 +153,5 @@ export default function Home() {
         </div>
       </div>
     </main>
-
   );
 }
