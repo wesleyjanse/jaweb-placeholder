@@ -66,10 +66,7 @@ export default function Home() {
         </div>
 
         {/* Rocket */}
-        <div
-          className="animate-fade-in animate-float"
-          style={{ animationDelay: "100ms", willChange: "transform" }}
-        >
+        <div className="animate-float" style={{ animationDelay: "100ms" }}>
           <Image
             src="/rocket.png"
             alt="Jaweb komt eraan"
@@ -88,7 +85,7 @@ export default function Home() {
             className="text-sm font-semibold uppercase tracking-widest"
             style={{ color: "#26C9AC" }}
           >
-            Software Development Agency · Binnenkort beschikbaar
+            Binnenkort beschikbaar
           </span>
           <h1
             className="text-4xl font-bold tracking-tight"
@@ -102,9 +99,8 @@ export default function Home() {
             className="text-base leading-relaxed"
             style={{ color: "#011627", opacity: 0.6 }}
           >
-            Jaweb is een software development agency in opbouw. We bouwen
-            digitale producten en oplossingen op maat. Neem gerust alvast
-            contact op.
+            We gaan digitale producten en oplossingen op maat bouwen. Neem
+            gerust alvast contact op om te starten.
           </p>
         </div>
 
